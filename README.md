@@ -4,7 +4,7 @@ This is a solution to the interactive rating component challenge on Frontend Men
 
 ### Screenshot
 
-![FAQ accordion card](images/rating-solution.png)
+![FAQ accordion card](images/solution.png)
 
 ### Links
 
