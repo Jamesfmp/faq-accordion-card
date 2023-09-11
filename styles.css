@@ -9,7 +9,6 @@
 }
 
 body {
-    
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: 'Kumbh Sans', sans-serif;
@@ -58,15 +57,16 @@ h6 {
 
 .card{
     background-color: white;
-    width: 800px;
-    height: 400px;
+    width: 900px;
+    height: 500px;
     display: flex;
     position: relative;
     border-radius: 20px;
     background-image: url(/images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-size: 80%;
-    background-position: -200% 60%;
+    background-position: -190% 75%;
+    box-shadow: 0px 17px 19px 8px rgba(0, 0, 0, 0.158)
 }
 .illustration{
     width: 50%;
@@ -86,14 +86,14 @@ h6 {
 }
 .box{
     position: absolute;
-    top: 150px;
+    top: 190px;
     left: -90px;
     width: 170px
 }
 
 .faq-section{
     width: 50%;
-    padding: 50px 60px 50px 0
+    padding: 50px 80px 50px 10px
 }
 
 .faq-section button{
@@ -102,4 +102,50 @@ h6 {
     width: 100%;
     cursor: pointer;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 0;
+}
+
+.faq-section button:focus{ 
+    font-weight: 700;
+    
+}
+
+.faq-section button:hover{
+    color: hsl(14, 88%, 65%)
+}
+
+
+
+.invert-arrow {
+    transform: rotate(180deg);
+}
+
+
+.questions{
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 1px;
+    border-color: hsl(240, 5%, 91%);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px
+    
+}
+p {
+    color: hsl(240, 6%, 50%);
+    padding-right: 40px;
+    padding-top: 10px;
+    display: none
+    
 }
